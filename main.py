@@ -7,7 +7,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.metrics import mean_squared_error, r2_score
 
 def main():
-    symbol = "AAPL"
+    symbol = " " # Replace the " " with the desired stock symbol, e.g., "AAPL" for Apple.
     api_key = "M2WILJVN48U2MICM"
     
     csv_data = fetch_stock_data(symbol, api_key)

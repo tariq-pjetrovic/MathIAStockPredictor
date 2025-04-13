@@ -47,6 +47,5 @@ def extract_closing_prices(csv_data):
         except ValueError:
             continue
     
-    # Reverse the list so that the latest date is first
     closing_prices.reverse()
     return closing_prices
